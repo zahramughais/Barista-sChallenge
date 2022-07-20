@@ -46,5 +46,7 @@ public static void main(String[] args) {
     System.out.println(order1.getOrderTotal());
     order3.display();
     
+    CoffeeKiosk coffeeKiosk1 = new CoffeeKiosk();
+    coffeeKiosk1.addMenuItemByInput();
 }
 }
